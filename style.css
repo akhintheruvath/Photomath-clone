@@ -1,0 +1,282 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+
+.nav-bar{
+    padding: 1% 1%;
+}
+
+.top > img{
+    margin-left: 16px;
+    margin-bottom: 17px;
+    width: 190px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4px 4%;
+}
+
+.header-links{
+    list-style-type: none;
+}
+
+.header-links > li{
+    display: inline-block;
+}
+
+.header-links > li > a{
+    text-decoration: none;
+    display: flex;
+    padding-right: 35px;
+    justify-content: space-between;
+}
+
+.login{
+    font-family: sans-serif;
+    font-weight: 790;
+}
+
+.s-button{
+    font-family: AvenirNext,"Helvetica Neue",Arial,sans-serif;
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 700;
+    line-height: 34px;
+    background: #bf0c34;
+    border-radius: 20px;
+    border: none;
+}
+
+.s-button:hover{
+    cursor: pointer;
+}
+
+.faq{
+    font-family: AvenirNext,"Helvetica Neue",Arial,sans-serif;
+    padding-left: 30px;
+    margin-right: 25px;
+}
+
+.first{
+    width: 100%;
+    height: 580.225px;
+    background: #fff;
+    display: flex;
+}
+
+.heading-text > h2{
+    font-weight: 799;
+    margin-top: 30px;
+    padding-left: 150px;
+    font-size: 56px;
+    font-family: AvenirNext,"Helvetica Neue",Arial,sans-serif!important;
+    line-height: 145%;
+}
+
+.join-text{
+    font-family: AvenirNext,"Helvetica Neue",Arial,sans-serif!important;
+    padding-left: 152px;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 32px;
+    color: #4c4f54;
+}
+
+.earn-text{
+    font-family: AvenirNext,"Helvetica Neue",Arial,sans-serif!important;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 700;
+    color: #4c4f54;
+    padding-left: 152px;
+    margin-top: 60px;
+    margin-bottom: 13px;
+}
+
+.start-solving-button{
+    height: 66px;
+    font-size: 21px;
+    line-height: 28px;
+    background-color: #bf0c34;
+    color: #fff;
+    border-radius: 72px;
+    font-weight: 700;
+    cursor: pointer;
+    border: none;
+    padding-left: 64px;
+    padding-right: 64px;
+    font-style: normal;
+    text-align: center;
+    text-decoration: none;
+    margin-left: 152px;
+}
+
+.first-image{
+    margin-left: 79px;
+    margin-top: 63px;
+}
+
+.second{
+    width: 100%;
+    height: 532px;
+    background: #bf0c34;
+}
+
+.become-text{
+    color: #fff;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    font-family: AvenirNext,"Helvetica Neue",Arial,sans-serif!important;
+    text-align: center;
+    padding-top: 105px;
+    padding-bottom: 24px;
+}
+
+.image-class{
+    display: flex;
+    flex-direction: column;
+}
+
+.three-one{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.three-two{
+    display: flex;
+    justify-content: space-evenly;
+    font-family: AvenirNext,"Helvetica Neue",Arial,sans-serif!important;
+    font-weight: 700!important;
+    margin-top: 8px!important;
+    margin-bottom: 0;
+    font-size: 26px;
+    line-height: 32px;
+    color: #fff;
+}
+
+.three-three{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 18px;
+    line-height: 1px;
+    font-family: AvenirNext,"Helvetica Neue",Arial,sans-serif!important;
+    color: #fff;
+}
+
+.third{
+    width: 100%;
+    height: 610px;
+    background: #fff;
+    display: flex;
+}
+
+.third-header{
+    margin-top: 60px;
+    margin-left: 150px;
+    font-weight: 700;
+    font-size: 41px;
+    line-height: 48px;
+    font-family: AvenirNext,"Helvetica Neue",Arial,sans-serif!important;
+    margin-bottom: 14px;
+}
+
+.list{
+    margin-bottom: 26px;
+    margin-left: 130px;
+    font-size: 22px;
+    line-height: 52px;
+    background-image: url(/static/media/standard_plus_bullet.05b1ed6d.svg);
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    font-family: AvenirNext,"Helvetica Neue",Arial,sans-serif!important;
+}
+
+.pic{
+    padding-left: 70px;
+    padding-top: 50px;
+}
+
+.about{
+    width: 100%;
+    height: 405px;
+    background: #bf0c34;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.about-head{
+    color: #fff;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    font-family: AvenirNext,"Helvetica Neue",Arial,sans-serif!important;
+    text-align: center;
+}
+
+.about-us{
+    font-family: AvenirNext,"Helvetica Neue",Arial,sans-serif!important;
+    color: #fff;
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.4285em;
+    padding-bottom: 15px;
+}
+
+.f-footer{
+    width: 100%;
+    height: 284px;
+    background: #fff;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.bottom-logo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.foot-link{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.one{
+    margin-top: 21px;
+    margin-bottom: 7px;
+    text-decoration: none;
+    color: #4c4f54;
+}
+
+.two{
+    margin-top: 7px;
+    text-decoration: none;
+    color: #4c4f54;
+}
+
+.fb{
+    margin-right: 15px;
+}
+
+.twitter{
+    margin-right: 20px;
+}
+
+.logos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
